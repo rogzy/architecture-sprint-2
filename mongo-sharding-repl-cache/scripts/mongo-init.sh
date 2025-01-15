@@ -10,8 +10,6 @@ rs.initiate(
        configsvr: true,
     members: [
       { _id : 0, host : "configSrv0:27000" },
-      { _id : 1, host : "configSrv1:27001" },
-      { _id : 2, host : "configSrv2:27002" },
     ]
   }
 );
